@@ -16,7 +16,16 @@
 
 #navbarSupportedContent {
     font-size: 18px;
-    margin-left: 530px;
+    margin-left: 100px;
+}
+
+#spacing{
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+#space{
+    margin: 0px auto;
 }
 
 .text{
