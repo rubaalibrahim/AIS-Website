@@ -28,12 +28,17 @@
     
     font-size: 18px;
   
-   margin: 0px 10px;
+   margin: 0px 15px;
     
 }
 #space{
-    margin: 0 400px;
+   margin: 0px auto;
 }
+#space{
+   max-width: 960px;
+    margin: 0px 340px;
+ }
+
 /* content style */
 #committees{
     margin: 30px 30px ;
