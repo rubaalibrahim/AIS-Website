@@ -1,0 +1,75 @@
+#logo{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+#language{
+    margin: 0px 20px;
+    float: right;
+}
+
+#sign{
+    margin: 0px 20px;
+    float: left;
+}
+
+#navbarSupportedContent{
+    font-size: 18px;
+}
+
+#spacing{
+    font-size: 18px;
+    margin: 0px 15px; 
+}
+
+#space{
+    margin: 0px auto;
+}
+
+.text{
+    margin: 40px;
+    color: rgb(108, 108, 247);
+}
+
+.accordion{
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:after{
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion:hover{
+    background-color: #ccc;
+}
+
+.active:after{
+    content: "\2796";
+}
+
+.panel{
+    padding: 0 18px;
+    margin: 10px;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#footer{
+    text-align: center;
+    height: 70px;
+    margin-top: 100px;
+    background:#0289d4;
+    color:white; 
+}
