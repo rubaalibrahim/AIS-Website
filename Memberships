@@ -1,1 +1,93 @@
 
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+
+
+</head>
+<body>
+    <br><br>
+<div class="container">
+
+
+
+
+ 
+   <div class="header">
+
+
+       <div class="lang">
+        <a href="" id="link">English </a>
+         <a href="" id="link">|عربي</a>
+
+         </div>
+
+       <div class="header2">
+        <i class="fad fa fa-bars"></i>
+        <a href="login.html" id="link">تسجيل دخول </a>
+        <a href="" id="link">|تسجيل جديد</a>
+       </div>
+
+   
+<img src="image1.jpg"  width="315" height="130"
+ style="position: absolute;
+ height: 131px;
+ width: 317px;
+ top: 16%;
+ right: 34%; "
+>
+</div>
+   <div class="menu-">
+
+
+    <ul class="list-">
+        <li><a class="" href="#">التواصل <i class="fa fa-angle-down"></i></a> </li>
+        <li><a class="" href="#">اللجان <i class="fa fa-angle-down"></i></a></li>
+
+        <li><a class="" href="#">عن الجمعية</a></li> 
+
+
+
+      </ul>
+
+   </div>
+        <div class="menu">
+
+
+
+            <ul class="list">
+                <li><a class="" href="#">العضويات</a></li>
+                <hr>
+                <li><a class="" href="#">سفراء الجمعية</a></li>
+                <hr>
+                <li><a class="" href="#">الدورات والفاعليات</a> </li>
+
+
+              </ul>
+        </div>
+
+<br>
+<hr>
+<h1 align="right" style="color: #585858;">نبذة   عن   الجمعية</h1>
+
+<div class="body"> 
+  <h3 style="position: relative;
+  top: 10px;
+  right: 10px;">الرئيسة / عن الجمعية</h3>  
+</div>
+
+
+
+<footer style="margin-top: 40%;
+background: #22b6d2;
+height: 43px;">    </footer>
+
+ </div>
+    
+</body>
+</html>
