@@ -1,0 +1,97 @@
+#logo{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+#language{
+    margin: 0px 20px ;
+    float: right;
+}
+
+#sign{
+    margin: 0px 20px;
+    float: left;
+}
+
+#navbarSupportedContent{
+    font-size: 18px;
+}
+
+#spacing{
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+#space{
+    margin: 0px auto;
+}
+
+.text-center{
+    background-image: linear-gradient(to bottom, rgba(54, 84, 99, 0.7) 100%,rgba(54, 84, 99, 0.7) 100%), url(images/Main.jpeg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 253, 253);
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.MainEn{
+    background-image: linear-gradient(to bottom, rgba(54, 84, 99, 0.7) 100%,rgba(54, 84, 99, 0.7) 100%), url(images/Main.jpeg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: rgb(255, 253, 253);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 15%;
+    font-size: 21px;
+}
+
+.ResetPassword{
+    margin-left: 80%;
+    margin-bottom: 50%;
+}
+
+.ResetPasswordEn{
+    margin-left: 4%;
+}
+
+.text-left, .text-right{
+    font-size: 30px;
+    color: #42B3C8;
+}
+
+.btn{
+    margin-top: 10%;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    width: 250px;
+}
+
+.btnAr{
+    margin-top: 10%;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    width: 250px;
+}
+
+#footer{
+    text-align: center;
+    height: 69.9px;
+    font-size: 16px;
+    background:#0289d4;
+    color:white; 
+}

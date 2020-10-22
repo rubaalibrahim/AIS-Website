@@ -1,0 +1,456 @@
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@import url("http://www.fontstatic.com/f=flat-jooza");
+
+/*//////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+/*---------------------------------------------*/
+
+
+p {
+
+	font-size: 22px;
+	line-height: 1.7;
+	color: #42B3C8;
+  margin: 0px;
+  text-align: center;
+  font-family: 'flat-jooza';
+}
+
+
+
+.tital1{
+  margin-left: 2px;
+line-height:1.6;
+text-align: right;
+  font-family: 'flat-jooza';
+  color: #999999;
+  margin-bottom:1px ;
+
+}
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+  border: none;
+  
+
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+ 
+}
+
+textarea {
+  outline: none;
+  border: none;
+ 
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder {color: #999999;}
+input:-moz-placeholder {color: #999999;}
+input::-moz-placeholder {color: #999999;}
+input:-ms-input-placeholder {color: #999999;}
+
+textarea::-webkit-input-placeholder {color: #999999;}
+textarea:-moz-placeholder {color: #999999;}
+textarea::-moz-placeholder {color: #999999;}
+textarea:-ms-input-placeholder {color: #999999;}
+
+
+
+/*---------------------------------------------*/
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+
+
+/*//////////////////////////////////////////////////////////////////
+*/
+
+
+.container-login100 {
+  width: 100%;  
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  
+
+
+
+}
+
+
+.wrap-login100 {
+  width: 770px;
+
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align:right ;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/*==================================================================
+[ Title form ]*/
+.login100-form-title {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 15px 74px 15px;
+}
+
+.login100-form-title-1 {
+  font-family: Poppins-Bold;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.login100-form-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(54,84,99,0.7);
+
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.login100-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 43px 88px 93px 190px;
+}
+
+#email1{
+ 
+  color: #c62828;
+margin-top: -53px;
+font-family: 'flat-jooza';
+text-align: center;
+width: 100%;
+height: 30px;
+padding: 5px 8px;
+width: 100%;
+margin-right: 100px;
+background: rgb(255, 0, 0,0.1);
+ display: none;
+
+  }
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  margin-right: 100px;
+  position: relative;
+ border: 1px solid #b2b2b2;
+ text-align: right;
+ border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+     border-top-right-radius:6px;
+     border-bottom-right-radius:6px;
+     top: -30px;
+
+ 
+}
+
+
+
+/*---------------------------------------------*/
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: transparent;
+
+  font-size: 15.7px;
+  color:#666666;
+ 
+
+  text-align: right;
+  border-top-left-radius:6px;
+   border-bottom-left-radius:6px;
+      border-top-right-radius:6px;
+      border-bottom-right-radius:6px;
+}
+
+input.input100 {
+  height: 35px;
+  text-align: right;
+
+}
+
+
+textarea.input100 {
+  min-height: 139px;
+  padding-top: 19px;
+  padding-bottom: 15px;
+  text-align: left;
+
+}
+
+
+
+
+
+.input100:focus {
+    border-color: #adadad;
+    padding: 0 25px;
+  border: 1px solid #42B3C8;
+
+  outline: none;
+  
+}
+
+/*---------------------------------------------*/
+
+.focus-input100 {
+  outline: none;
+   display: block;
+  width: 100%;
+  background: transparent;
+  font-family: 'flat-jooza';
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.2;
+  padding: 0 25px;
+  
+  
+  
+  border-top-left-radius:6px;
+  border-bottom-left-radius:6px;
+     border-top-right-radius:6px;
+     border-bottom-right-radius:6px;
+  position: absolute;
+  display: block;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  top: -1px;
+  right: -1px;
+  pointer-events: none;
+  border: 1px solid #42B3C8;
+
+  visibility: hidden;
+  opacity: 0;
+text-align: left;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  -webkit-transform: scaleX(1.1) scaleY(1.3);
+  -moz-transform: scaleX(1.1) scaleY(1.3);
+  -ms-transform: scaleX(1.1) scaleY(1.3);
+  -o-transform: scaleX(1.1) scaleY(1.3);
+  transform: scaleX(1.1) scaleY(1.3);
+}
+
+.input100:focus + .focus-input100 {
+  visibility: visible;
+  opacity: 1;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+  width: 100%;
+
+
+}
+
+
+
+
+
+.form-submit {
+  text-align: right;
+  padding-top: 3px; 
+  margin-left: 20XP;
+  margin-top: -19px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1px;
+  
+
+}
+
+
+.submit {
+  font-family: 'flat-jooza';
+  width: 90px;
+  height: 40px;
+  display: inline-block;
+  font-size:15px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #ED862C;
+  padding: 10px;
+  border: none;
+  cursor: pointer; 
+  border: 1px solid;
+  border-radius: 40px;
+
+}
+
+
+
+  .cancel {
+    font-family: 'flat-jooza';
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+    font-size:15px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: white;
+   color: #ED862C;
+    margin-right: 8px; 
+    border-color: #42B3C8;
+    color: #42B3C8;
+    padding: 10px;
+    border: none;
+    cursor: pointer; 
+    border: 1px solid;
+    border-radius: 40px;
+  
+  }
+  
+    .signup-content {
+
+      font-family: 'flat-jooza';
+      
+      flex-direction: column;
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -o-flex-direction: column;
+      -ms-flex-direction: column; }
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .login100-form {
+    padding: 43px 15px 57px 117px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login100-form {
+    padding: 43px 15px 57px 15px;
+  }
+
+  .label-input100 {
+    text-align: left;
+    position: unset;
+    top: unset;
+    left: unset;
+    width: 100%;
+    padding: 0 5px;
+  }
+}
+
+
+/*------------------------------------------------------------------*/
