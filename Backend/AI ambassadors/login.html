@@ -98,21 +98,29 @@
     <pre class="text-center col-xs-12"><br>                      سفراء الذكاء الاصطناعي</pre>
     <div class="row">
         <div class="col-md-12">
-            <form action="">
-            <h4 class="text-right col-md-8">البريد الالكتروني:</h4>
-            <div class="col-md-9">
-              <input type="email" class="form-control input-lg" id="email" name="email" placeholder="abc@example.com">
-            </div>
+            <form action="/mainpage.html" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
 
-            <h4 class="text-right col-md-8">كلمة المرور:</h4>
-            <div class="col-md-9">
-              <input type="Password" class="form-control input-lg" id="Password" name="Password" placeholder="Enter your password" style="margin-bottom: 5%;">
-            </div>
+  <div class="container">
+   <h4 class="text-left col-md-8">Email:</h4>
+    <input type="email" class="form-control input-lg" placeholder="Enter Email" name="uname" required>
 
-            <a class="ResetPassword" href="../Reset Password/Reset Password-ar.html">نسيت كلمة المرور؟</a><br>
+    <h4 class="text-left col-md-8">Password:</h4>
+    <input type="Password" class="form-control input-lg" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit" class="btn btn-outline-info btn-lg">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
 
-            <button type="button" class="btn btnAr btn-outline-info btn-lg">تسجيل الدخول</button>
-        </form>
+  <div class="container" style="background-color:#f1f1f1">
+   
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
           </div>
         </div>
       </div>
