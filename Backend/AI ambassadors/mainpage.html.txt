@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input required attribute</h1>
+
+<form action="/action_page.php">
+  <h1>Login ssc<h1>
+  
+</form>
+
+</body>
+</html>
