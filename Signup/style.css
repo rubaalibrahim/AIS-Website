@@ -1,0 +1,94 @@
+#logo{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+#language{
+    margin: 0px 20px ;
+    float: right;
+}
+
+#sign{
+    margin: 0px 20px;
+    float: left;
+}
+
+#navbarSupportedContent{
+    font-size: 18px;
+}
+
+#spacing{
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+#space{
+    margin: 0px auto;
+}
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.text-center{
+    margin-bottom: 5%;
+	color: #42B3C8;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.required{
+    color: #42B3C8;
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+
+.requiredEN{
+    color: #42B3C8;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 21px;
+}
+
+.text-left{
+    font-size: 30px;
+	color: #42B3C8;
+}
+
+.text-right{
+    color: #42B3C8;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    width: 250px;
+}
+
+.btnAr{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 36%;
+    width: 250px;
+}
+
+#footer{
+    text-align: center;
+    height: 69.9px;
+    font-size: 16px;
+    background:#0289d4;
+    color:white; 
+}
