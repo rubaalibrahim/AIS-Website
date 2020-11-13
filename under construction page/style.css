@@ -1,0 +1,28 @@
+#logo{
+  height: 200px;
+  width: 300px;
+  text-align: center;
+}
+
+#language{
+  margin: 0px 20px ;
+  float: right;
+}
+
+.txt{
+  font-size: 40px;
+  color: rgb(153, 161, 153);
+}
+
+.txt-ar{
+  font-size: 50px;
+  color: rgb(153, 161, 153);
+}
+
+#footer{
+  text-align: center;
+  height: 70px;
+  margin-top: 100px;
+  background:#0289d4;
+  color:white; 
+}
